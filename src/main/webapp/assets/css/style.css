@@ -23,19 +23,19 @@ h1,h2,h3,h4,h5,h6 {
 
 /** 标题栏大标题 */
 .navbar-default {
-	border-bottom: 1px solid #e84c3d;
-	border: 1px solid #e84c3d;
+	border-bottom: 1px solid #EAEAEA;
+	border: 1px solid #EAEAEA;
 	border-radius: 0px;
 }
 
 .navbar-default .navbar-brand {
-	color: #fff;
+	color: #3F3D3D;
 	font-size: 20px;
 	font-weight: bold;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #fff;
+	color: #3F3D3D;
 	font-size: 16px;
 	font-weight: bold;
 }
@@ -48,10 +48,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .toppanel {
 	border: 0px solid #e84c3d;
-	background: #fafafa;
-	margin-bottom: 20px;
 	min-height: 100px;
-	padding: 20px;
+	text-align: center;
 }
 
 .index-top-left {

@@ -32,9 +32,11 @@
 
 </head>
 <body>
+	<!-- 
 	<div class="container">
-		<div class="toppanel">十</div>
+		<div class="toppanel"><img src="${root}/assets/images/cross-top.gif" /></div>
 	</div>
+	 -->
 	
 	<nav class="navbar navbar-default">
 		<div class="container">
