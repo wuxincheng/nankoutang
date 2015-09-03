@@ -1,5 +1,6 @@
+
 /************************
-Designed by : http://responsivewebinc.com
+Designed by : http://nankoutang.com
 ************************/
 /* Fonts #0068b7/#e84c3d */
 
@@ -10,7 +11,7 @@ body {
 	font-family: Arial, 微软雅黑, Verdana, Geneva, Tahoma, 宋体, 'Open Sans',
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #fff;
+	background: #E9EAEC;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -41,7 +42,6 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .sildepanel {
-	background: #fff;
 	width: 100%;
 	margin-top: 0px;
 }
@@ -52,23 +52,92 @@ h1,h2,h3,h4,h5,h6 {
 	text-align: center;
 }
 
+.ad-panel {
+	border: 0px solid #e84c3d;
+	background: #fff;
+	margin-top: 15px;
+}
+
+.notice-panel {
+	border: 0px solid #e84c3d;
+	background: #fff;
+	padding: 15px;
+}
+
+.notice-panel-title {
+	border: 0px solid #e84c3d;
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 15px;
+	font-weight: bold;
+	background: #F7F8FA;
+	font-size: 15px;
+}
+
 .index-top-left {
 	border: 0px solid #e84c3d;
-	background: #fafafa;
+	background: #fff;
+	padding: 15px;
 	min-height: 375px;
-	padding: 20px;
 }
 
 .mainpanel {
-	margin-top: 20px;
+	margin-top: 15px;
 }
 
 .orgmake {
 	border: 0px solid #e84c3d;
-	background: #fafafa;
-	margin-top: 20px;
-	min-height: 150px;
-	padding: 20px;
+	background: #fff;
+	margin-bottom: 15px;
+	padding: 15px;
+}
+
+.model-title {
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.list-unstyled li {
+	margin-top: 15px;
+}
+
+img {
+	width: 100%;
+}
+
+.event-panel {
+	border: 0px solid #e84c3d;
+	background: #fff;
+	padding: 15px;
+	margin-bottom: 15px;
+}
+
+.event-title {
+	font-size: 18px;
+    font-weight: 600;
+}
+
+.event-time {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: #aaaaaa;
+}
+
+.event-memo {
+	margin-top: 15px;
+	color: #666666;
+}
+
+.event-more {
+	color: #aaaaaa;
+	font-size: 14px;
+	float: right;
+}
+
+.thumbnail {
+    border: 0px solid #ddd;
+    margin-bottom: 0px;
 }
 
 .subfooter {

@@ -1,35 +1,51 @@
 package com.jesuschrist.nankoutang.model;
 
+import java.io.Serializable;
+
 /**
- * 活动或新闻
+ * 活动、公告、讲道、见证等
  * 
  * @author wuxincheng
  * 
  */
-public class Event {
+public class Event implements Serializable {
 
-	/** 活动主键 */
+	private static final long serialVersionUID = 7893687670005968056L;
+
+	/** 主键 */
 	private String eventid;
 
-	/** 活动图片 */
+	/** 用于在列表显示的图片 */
 	private String eventIndexImg;
 
-	/** 活动标题 */
+	/** 标题 */
 	private String eventTitle;
 
-	/** 活动内容 */
+	/** 副标题 */
+	private String eventSubTitle;
+
+	/** 内容 */
 	private String eventContent;
 
-	/** 活动类型 */
+	/** 类型：1-活动、2-公告、3-讲道、4-见证 */
 	private String eventType;
 
-	/** 活动发布人 */
+	/** 阅读次数 */
+	private Integer readSum;
+
+	/** 赞同次数 */
+	private Integer likeSum;
+
+	/** 评论次数 */
+	private Integer commentSum;
+
+	/** 发布人 */
 	private String creater;
 
 	/** 创建时间 */
 	private String createTime;
 
-	/** 更新状态 */
+	/** 更新时间 */
 	private String updateTime;
 
 	/** 状态 */
@@ -105,6 +121,38 @@ public class Event {
 
 	public void setEventIndexImg(String eventIndexImg) {
 		this.eventIndexImg = eventIndexImg;
+	}
+
+	public String getEventSubTitle() {
+		return eventSubTitle;
+	}
+
+	public void setEventSubTitle(String eventSubTitle) {
+		this.eventSubTitle = eventSubTitle;
+	}
+
+	public Integer getReadSum() {
+		return readSum;
+	}
+
+	public void setReadSum(Integer readSum) {
+		this.readSum = readSum;
+	}
+
+	public Integer getLikeSum() {
+		return likeSum;
+	}
+
+	public void setLikeSum(Integer likeSum) {
+		this.likeSum = likeSum;
+	}
+
+	public Integer getCommentSum() {
+		return commentSum;
+	}
+
+	public void setCommentSum(Integer commentSum) {
+		this.commentSum = commentSum;
 	}
 
 }
