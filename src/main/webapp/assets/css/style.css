@@ -24,8 +24,7 @@ h1,h2,h3,h4,h5,h6 {
 
 /** 标题栏大标题 */
 .navbar-default {
-	border-bottom: 1px solid #EAEAEA;
-	border: 1px solid #EAEAEA;
+	border-top: 3px solid #fff;
 	border-radius: 0px;
 }
 
@@ -55,13 +54,14 @@ h1,h2,h3,h4,h5,h6 {
 .ad-panel {
 	border: 0px solid #e84c3d;
 	background: #fff;
-	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .notice-panel {
 	border: 0px solid #e84c3d;
 	background: #fff;
 	padding: 15px;
+	margin-bottom: 15px;
 }
 
 .notice-panel-title {

@@ -54,7 +54,44 @@
 					</div>
 				</div>
 				<div class="col-md-4">
-					<div class="index-top-left">聚会时间</div>
+					<div class="index-top-left">
+						<div class="text-success model-title">例会安排</div>
+						<table class="table table-bordered" style="text-align: center;">
+							<tr>
+								<td><b>周期</b></td>
+								<td><b>例会</b></td>
+								<td><b>时间</b></td>
+							</tr>
+							<tr>
+								<td>周二</td>
+								<td>祷告见证会</td>
+								<td>9:00-10:30</td>
+							</tr>
+							<tr>
+								<td rowspan="2" style="vertical-align: middle;">周四</td>
+								<td>查经聚会</td>
+								<td>9:00-10:30</td>
+							</tr>
+							<tr>
+								<td>祷告会</td>
+								<td>19:00-20:30</td>
+							</tr>
+							<tr>
+								<td rowspan="2" style="vertical-align: middle;">周五</td>
+								<td>姊妹聚会</td>
+								<td>9:00-10:30</td>
+							</tr>
+							<tr>
+								<td>青年聚会</td>
+								<td>19:00-20:30</td>
+							</tr>
+							<tr>
+								<td>周日</td>
+								<td>主日崇拜</td>
+								<td>9:00-10:30</td>
+							</tr>
+						</table>
+					</div>
 				</div>
 			</div>
 
@@ -68,16 +105,11 @@
 					<div class="notice-panel">
 						<div class="text-danger model-title">网站公告</div>
 						<ul class="list-unstyled">
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
-						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 09-25</a></li>
+						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 <span style="float: right;">09-25</span></a></li>
+						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 <span style="float: right;">09-25</span></a></li>
+						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 <span style="float: right;">09-25</span></a></li>
+						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 <span style="float: right;">09-25</span></a></li>
+						  <li><a href="#">1、南口堂网站将于2015年12月25日上线 <span style="float: right;">09-25</span></a></li>
 						</ul>
 					</div>
 					
@@ -86,35 +118,9 @@
 							<img src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
 						</a>
 					</div>
-					
-					<div class="ad-panel">
-						<a href="#">
-							<img src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
-						</a>
-					</div>
 				</div>
 				<div class="col-md-8">
 					<div class="notice-panel-title">讲道动态 <span class="event-more"><a href="#">更多>></a></span></div>
-					<div class="event-panel">
-						<div class="row">
-							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
-							<div class="col-md-8">
-								<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
-								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-								<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
-							</div>
-						</div>
-					</div>
-					<div class="event-panel">
-						<div class="row">
-							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
-							<div class="col-md-8">
-								<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
-								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-								<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
-							</div>
-						</div>
-					</div>
 					<div class="event-panel">
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
@@ -153,7 +159,7 @@
 	<div class="container">
 		<div class="notice-panel-title">活动动态 <span class="event-more"><a href="#">更多>></a></span></div>
 		<div class="row">
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="orgmake">
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
@@ -162,7 +168,7 @@
 				    </div>
 			  	</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="orgmake">
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
@@ -171,16 +177,7 @@
 				    </div>
 			  	</div>
 			</div>
-			<div class="col-md-3">
-				<div class="orgmake">
-				    <div class="thumbnail">
-				    	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
-				    	<p>
-			        	<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
-				    </div>
-			  	</div>
-			</div>
-			<div class="col-md-3">
+			<div class="col-md-4">
 				<div class="orgmake">
 				    <div class="thumbnail">
 				    	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
@@ -193,7 +190,54 @@
 	</div>
 	
 	<div class="container">
-		<div class="orgmake">友情链接</div>
+		<div class="row">
+			<div class="col-md-8">
+				<div class="notice-panel-title">生命见证 <span class="event-more"><a href="#">更多>></a></span></div>
+				<div class="event-panel">
+					<div class="row">
+						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
+						<div class="col-md-8">
+							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
+							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+						</div>
+					</div>
+				</div>
+				<div class="event-panel">
+					<div class="row">
+						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
+						<div class="col-md-8">
+							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
+							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+						</div>
+					</div>
+				</div>
+				<div class="event-panel">
+					<div class="row">
+						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
+						<div class="col-md-8">
+							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
+							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="ad-panel">
+					<a href="#">
+						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
+					</a>
+				</div>
+				
+				<div class="ad-panel">
+					<a href="#">
+						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
+					</a>
+				</div>
+			</div>
+		</div>
 	</div>
 
 	<jsp:include page="FOOTER.jsp" />
