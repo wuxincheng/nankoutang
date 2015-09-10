@@ -4,7 +4,6 @@ import javax.annotation.PostConstruct;
 import javax.annotation.Resource;
 
 import org.springframework.orm.ibatis.support.SqlMapClientDaoSupport;
-import org.springframework.stereotype.Repository;
 
 import com.ibatis.sqlmap.client.SqlMapClient;
 
@@ -14,7 +13,7 @@ import com.ibatis.sqlmap.client.SqlMapClient;
  * @author wuxincheng
  *
  */
-@Repository("baseDao")
+//@Repository("baseDao")
 public class BaseDao extends SqlMapClientDaoSupport {
 
 	@Resource

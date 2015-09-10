@@ -15,4 +15,9 @@ public class EventDao extends BaseDao {
 		return this.getSqlMapClientTemplate().queryForList("Event.getTopList", queryMap);
 	}
 
+	public Event queryDetailByEventId(String eventid) {
+		return (Event) this.getSqlMapClientTemplate().queryForObject("Event.queryDetailByEventId",
+				eventid);
+	}
+
 }

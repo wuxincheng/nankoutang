@@ -5,8 +5,6 @@
 <sqlMapConfig>
   <settings useStatementNamespaces="true" />
 
-  <!-- 
-  <sqlMap resource="com/jesuschrist/nankoutang/model/Product.xml" />
-   -->
+  <sqlMap resource="com/jesuschrist/nankoutang/model/Event.xml" />
   
 </sqlMapConfig>

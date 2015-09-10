@@ -30,6 +30,9 @@ public class Event implements Serializable {
 	/** 类型：1-活动、2-公告、3-讲道、4-见证 */
 	private String eventType;
 
+	/** 标签：1-活动、2-公告、3-讲道、4-见证 */
+	private String eventTag;
+
 	/** 阅读次数 */
 	private Integer readSum;
 
@@ -153,6 +156,14 @@ public class Event implements Serializable {
 
 	public void setCommentSum(Integer commentSum) {
 		this.commentSum = commentSum;
+	}
+
+	public String getEventTag() {
+		return eventTag;
+	}
+
+	public void setEventTag(String eventTag) {
+		this.eventTag = eventTag;
 	}
 
 }

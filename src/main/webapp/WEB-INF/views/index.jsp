@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="hfn" uri="/WEB-INF/hfn.tld"%>
 <c:set var="root" value="${pageContext.request.contextPath}" />
@@ -10,13 +9,11 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 
-<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon"
-	rel="icon" />
-<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon"
-	rel="shortcut icon" />
+<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon" rel="icon" />
+<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon" rel="shortcut icon" />
 
-<meta name="description" content="找到你喜欢的理财产品">
-<meta name="keywords" content="赚了没，基金点评，基金分享，基金排行榜">
+<meta name="description" content="南口堂沙河教会">
+<meta name="keywords" content="南口堂沙河教会，教会">
 </head>
 <body>
 	<jsp:include page="HEADER.jsp" />
@@ -125,9 +122,9 @@
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-								<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
 						</div>
 					</div>
@@ -135,9 +132,9 @@
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-								<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
 						</div>
 					</div>
@@ -145,9 +142,9 @@
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-								<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
 						</div>
 					</div>
@@ -164,7 +161,7 @@
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				      	<p>
-			        	<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 				    </div>
 			  	</div>
 			</div>
@@ -173,7 +170,7 @@
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				      	<p>
-			        	<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 				    </div>
 			  	</div>
 			</div>
@@ -182,7 +179,7 @@
 				    <div class="thumbnail">
 				    	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				    	<p>
-			        	<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 				    </div>
 			  	</div>
 			</div>
@@ -197,9 +194,9 @@
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
 					</div>
 				</div>
@@ -207,9 +204,9 @@
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
 					</div>
 				</div>
@@ -217,9 +214,9 @@
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">腾讯云欢庆五周年，感恩回馈，一路相随！</div>
+							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>患者可能由于换了个地方睡觉而无法被监测到最自然的睡眠状态，医院也因为获得的一部分是非目标患者，浪费了医疗资源。</div>
+							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
 					</div>
 				</div>

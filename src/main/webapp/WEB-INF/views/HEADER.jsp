@@ -18,13 +18,10 @@
 	
 <!-- meta -->
 <meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<meta name="renderer" content="webkit">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon"
-	rel="icon" />
-<link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon"
-	rel="shortcut icon" />
+<link href="${root}/assets/img/logo/logo.png" type="image/x-icon" rel="icon" />
+<link href="${root}/assets/img/logo/logo.png" type="image/x-icon" rel="shortcut icon" />
 
 <!-- info -->
 <meta name="description" content="找到你喜欢的理财产品">
@@ -60,13 +57,15 @@
 					<li><a href="#contact">诗班</a></li>
 					<li><a href="#contact">主日学</a></li>
 					<li><a href="#contact">关于教会</a></li>
+                    <li><a href="#contact">软件推荐</a></li>
 				</ul>
+                <!-- 
 				<ul class="nav navbar-nav navbar-right">
 					<li><a href="../navbar/">登录</a></li>
 					<li><a href="../navbar-fixed-top/">注册</a></li>
 				</ul>
+                 -->
 			</div>
-			<!--/.nav-collapse -->
 		</div>
 	</nav>
 

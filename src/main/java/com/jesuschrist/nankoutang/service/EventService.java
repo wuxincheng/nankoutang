@@ -17,7 +17,7 @@ public class EventService {
 
 	@Resource
 	private EventDao eventDao;
-	
+
 	/**
 	 * 获取最新发布的
 	 * 
@@ -29,13 +29,18 @@ public class EventService {
 		if (StringUtils.isEmpty(eventType) || topValue < 1) {
 			return null;
 		}
-		
+
 		Map<String, Object> queryMap = new HashMap<String, Object>();
 		queryMap.put("eventType", eventType);
 		queryMap.put("topValue", topValue);
 		return eventDao.getTopList(queryMap);
 	}
 
-	
-	
+	public Event queryDetailByEventId(String eventid) {
+		if (StringUtils.isNotEmpty(eventid)) {
+			return eventDao.queryDetailByEventId(eventid);
+		}
+		return null;
+	}
+
 }

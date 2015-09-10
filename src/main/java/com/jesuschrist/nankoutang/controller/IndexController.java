@@ -26,8 +26,7 @@ import com.jesuschrist.nankoutang.service.EventService;
 public class IndexController extends BaseController {
 	private static final Logger logger = LoggerFactory.getLogger(IndexController.class);
 
-	@Resource
-	private EventService eventService;
+	@Resource private EventService eventService;
 	
 	@RequestMapping(value = "/index")
 	public String index(Model model, HttpServletRequest request) {
