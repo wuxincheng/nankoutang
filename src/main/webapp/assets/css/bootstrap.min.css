@@ -38,7 +38,7 @@ a {
 }
 
 a:active,a:hover {
-	outline: 0
+	outline: 0;
 }
 
 abbr[title] {
@@ -1363,8 +1363,8 @@ a {
 }
 
 a:focus,a:hover {
-	color: #23527c;
-	text-decoration: underline
+	color: #E62B1E;
+	font-weight: bold;
 }
 
 a:focus {
@@ -4805,7 +4805,7 @@ select[multiple].input-group-sm>.form-control,select[multiple].input-group-sm>.i
 
 .navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover
 	{
-	color: #333;
+	color: #f22a22;
 	background-color: transparent
 }
 
@@ -5353,7 +5353,7 @@ a.thumbnail.active,a.thumbnail:focus,a.thumbnail:hover {
 	padding: 15px;
 	margin-bottom: 20px;
 	border: 1px solid transparent;
-	border-radius: 4px
+	border-radius: 0px
 }
 
 .alert h4 {

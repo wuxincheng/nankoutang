@@ -43,4 +43,8 @@ public class EventService {
 		return null;
 	}
 
+	public void readCount(String eventid) {
+		eventDao.readCount(eventid);
+	}
+
 }

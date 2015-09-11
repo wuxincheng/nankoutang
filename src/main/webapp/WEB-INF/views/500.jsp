@@ -19,13 +19,13 @@
     <jsp:include page="HEADER.jsp" />
     <div class="container">
       
-      <div class="content login-row cf">
+      <div class="content login-row cf" style="max-width: 390px;">
         <div>
           <div class="row">
-            <div class="col-sm-12 fund-base">
+            <div class="col-sm-12">
               <p>&nbsp;</p>
               <p>
-              <h1>505 对不起，服务器异常</h1>
+              <h3>505 对不起，服务器异常</h3>
             </div>
           </div>
         </div>

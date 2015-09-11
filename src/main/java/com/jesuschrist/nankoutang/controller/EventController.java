@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import com.jesuschrist.nankoutang.model.Event;
 import com.jesuschrist.nankoutang.model.EventType;
@@ -24,7 +25,7 @@ public class EventController extends BaseController {
 	
 	@RequestMapping(value = "/list")
 	public String list(Model model, String eventType) {
-		logger.info("event list");
+		logger.info("显示列表页面 eventType={}", eventType);
 		if (StringUtils.isEmpty(EventType.getValue(eventType))) {
 			eventType = EventType.EVENT;
 		}
@@ -39,8 +40,22 @@ public class EventController extends BaseController {
 	}
 	
 	@RequestMapping(value = "/detail")
-	public String detail(Model model) {
-		logger.info("event detail");
+	public String detail(Model model, @RequestParam("eventid") String eventid) {
+		logger.info("显示详细页面  eventid={}", eventid);
+		
+		if (StringUtils.isEmpty(eventid)) {
+			return "404";
+		}
+		
+		Event event = eventService.queryDetailByEventId(eventid);
+		
+		if (null == event) {
+			return "404";
+		}
+		
+		eventService.readCount(eventid);
+		
+		model.addAttribute("event", event);
 		
 		return "detail";
 	}

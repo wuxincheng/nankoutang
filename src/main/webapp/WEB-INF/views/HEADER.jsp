@@ -45,17 +45,17 @@
 						class="icon-bar"></span> <span class="icon-bar"></span> <span
 						class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">南口堂沙河教会</a>
+				<a class="navbar-brand" href="#"></a>
 			</div>
 			<div id="navbar" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
-					<li><a href="#">首页</a></li>
-					<li><a href="#about">每周讲道</a></li>
-					<li><a href="#contact">公告</a></li>
-					<li><a href="#contact">活动</a></li>
-					<li><a href="#contact">生命见证</a></li>
-					<li><a href="#contact">诗班</a></li>
-					<li><a href="#contact">主日学</a></li>
+					<li><a href="${root}">首页</a></li>
+					<li><a href="${root}/event/list?eventType=1">每周讲道</a></li>
+					<li><a href="${root}/event/list?eventType=2">公告</a></li>
+					<li><a href="${root}/event/list?eventType=3">活动</a></li>
+					<li><a href="${root}/event/list?eventType=4">生命见证</a></li>
+					<li><a href="${root}/event/list?eventType=5">诗班</a></li>
+					<li><a href="${root}/event/list?eventType=6">主日学</a></li>
 					<li><a href="#contact">关于教会</a></li>
                     <li><a href="#contact">软件推荐</a></li>
 				</ul>

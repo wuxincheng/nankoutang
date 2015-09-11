@@ -20,4 +20,8 @@ public class EventDao extends BaseDao {
 				eventid);
 	}
 
+	public void readCount(String eventid) {
+		this.getSqlMapClientTemplate().update("Event.readCount", eventid);
+	}
+
 }

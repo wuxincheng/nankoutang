@@ -7,7 +7,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
-<title>404 对不起，您访问的页面不存在 - TOP</title>
+<title>404 对不起，您访问的页面不存在</title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="${root}/assets/css/application.css" />
@@ -19,13 +19,13 @@
     <jsp:include page="HEADER.jsp" />
     <div class="container">
       
-      <div class="content login-row cf">
+      <div class="content login-row cf" style="max-width: 390px;">
         <div>
           <div class="row">
-            <div class="col-sm-12 fund-base">
+            <div class="col-sm-12">
               <p>&nbsp;</p>
               <p>
-              <h1>404 啊噢，很抱歉，您访问的页面不存在耶！</h1>
+              <h3>404：您访问的内容不存在！</h3>
               <p>&nbsp;</p>
               <p>
               <p>1、请检查您访问的网址是否正确；</p>

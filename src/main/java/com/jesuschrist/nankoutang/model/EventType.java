@@ -36,12 +36,12 @@ public class EventType {
 	 */
 	public static Map<String, String> getAll(){
 		Map<String, String> eventTypes = new HashMap<String, String>();
-		eventTypes.put("1", "讲道");
-		eventTypes.put("2", "公告");
-		eventTypes.put("3", "活动");
-		eventTypes.put("4", "见证");
-		eventTypes.put("5", "诗班");
-		eventTypes.put("6", "主日学");
+		eventTypes.put("1", "每周讲道");
+		eventTypes.put("2", "公告通知");
+		eventTypes.put("3", "教会活动");
+		eventTypes.put("4", "生命见证");
+		eventTypes.put("5", "诗班活动");
+		eventTypes.put("6", "主日学活动");
 		
 		return eventTypes;
 	}
