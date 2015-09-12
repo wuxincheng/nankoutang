@@ -6,11 +6,19 @@
 <html>
 <head>
 <style type="text/css">
+.subfooter .list-unstyled > li {
+  float: left;
+  text-align: center;
+}
+.bottom-bar {
+  text-align: center;
+}
 </style>
 </head>
 <body>
   <div class="subfooter">
-    <div>132312</div>
+    <div>南口堂沙河教会版权所有</div>
+    <div>©Copyright 2015 - <a href="http://www.nankoutang.com"><b>www.nankoutang.com</b></a> - All Rights Reserved</div>
   </div>
 
   <script src="${root}/assets/js/jquery.min.js" type="text/javascript"></script>

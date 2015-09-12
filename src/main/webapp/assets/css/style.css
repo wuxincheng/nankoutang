@@ -170,21 +170,69 @@ img {
   padding: 15px;
 }
 
+.event-content {
+	margin-top: 15px;
+	color: #666666;
+}
+
+.event-content img {
+  width: auto;
+}
+
 .thumbnail {
     border: 0px solid #ddd;
     margin-bottom: 0px;
 }
 
+.soft-panel {
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+}
+
+.soft-item {
+  background-color: #fff;
+  height: 85px;
+}
+
+.soft-img {
+  height: 72px; 
+  width: 72px;
+  float: left;
+}
+
+.soft-info {
+  float: left;
+  margin-left: 10px;
+}
+
+.soft-name {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.soft-android {
+  font-size: 13px;
+}
+
+.soft-ios {
+  font-size: 13px;
+}
+
+.soft-memo {
+  color: #747f8c;
+  font-size: 12px;
+}
+
 .subfooter {
 	margin-top: 20px;
 	width: 100%;
-	min-height: 200px;
 	color: #747f8c;
 	text-align: center;
 	padding: 30px 0;
-	background-color: #262626;
-	border-top: 1px solid #3a3a3a;
-	border-bottom: 1px solid #333333;
+	border-top: 1px solid #ddd;
 }
 
 .jiathis_modal_body {

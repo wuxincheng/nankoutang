@@ -22,7 +22,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-                <div class="alert alert-danger" role="alert" style="color: #E62B1E; font-size: 15px;"><b>${eventTypeValue}</b></div>
+                <div class="notice-panel-title" style="color: #E62B1E; font-size: 15px;"><b>${eventTypeValue}</b></div>
 				<div class="event-panel">
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>

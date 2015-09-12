@@ -26,7 +26,8 @@
         		<div class="event-detail-title">${event.eventTitle}</div>
         		<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（${event.readSum} 次）</span></div>
                 <div class=event-detail-sub-title>${event.eventSubTitle}</div>
-        		<div class=event-memo>${event.eventContent}</div>
+        		<div class="event-content">${event.eventContent}
+                </div>
     		  </div>
               <div class="share">
                 <!-- JiaThis Button BEGIN -->

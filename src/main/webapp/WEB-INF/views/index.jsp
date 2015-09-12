@@ -123,7 +123,7 @@
 					</div>
 				</div>
 				<div class="col-md-8">
-                    <div class="alert alert-success" role="alert">讲道动态 <span class="event-more"><a href="#">更多>></a></span></div>
+                    <div class="notice-panel-title">讲道动态 <span class="event-more"><a href="#">更多>></a></span></div>
 					<div class="event-panel">
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
@@ -160,7 +160,7 @@
 	</div>
 	
 	<div class="container">
-        <div class="alert alert-warning" role="alert">活动动态 <span class="event-more"><a href="#">更多>></a></span></div>
+        <div class="notice-panel-title">活动动态 <span class="event-more"><a href="#">更多>></a></span></div>
 		<div class="row">
 			<div class="col-md-4">
 				<div class="orgmake">
@@ -195,7 +195,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-                <div class="alert alert-info" role="alert">生命见证 <span class="event-more"><a href="#">更多>></a></span></div>
+                <div class="notice-panel-title">生命见证 <span class="event-more"><a href="#">更多>></a></span></div>
 				<div class="event-panel">
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
