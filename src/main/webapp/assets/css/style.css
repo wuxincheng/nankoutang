@@ -4,14 +4,14 @@ Designed by : http://nankoutang.com
 ************************/
 /* Fonts #0068b7/#e84c3d */
 
-/* Basic CSS starts */
+/* Basic CSS starts background: #F9F9F9; */
 body {
 	padding-top: 0px;
 	font-size: 14px;
 	font-family: Arial, 微软雅黑, Verdana, Geneva, Tahoma, 宋体, 'Open Sans',
 		sans-serif;
 	-webkit-font-smoothing: antialiased;
-	background: #F9F9F9;
+	
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -62,8 +62,8 @@ h1,h2,h3,h4,h5,h6 {
 	margin-bottom: 15px;
 }
 
-img {
-	width: 100%;
+.ad-panel img {
+  width: 100%;
 }
 
 .event-panel-title {
@@ -78,24 +78,24 @@ img {
 
 .notice-panel {
 	border: 0px solid #e84c3d;
-	background: #fff;
+	background: #F9F9F9;
 	padding: 15px;
 	margin-bottom: 15px;
 }
 
 .notice-panel-title {
-	border: 0px solid #e84c3d;
+	border-bottom: 2px solid #e84c3d;
 	background: #fff;
-	padding: 15px;
-	margin-bottom: 15px;
 	font-weight: bold;
 	background: #fff;
 	font-size: 15px;
+	color: #e84c3d;
+	margin-bottom: 5px;
 }
 
 .index-top-left {
 	border: 0px solid #e84c3d;
-	background: #fff;
+	background: #F9F9F9;
 	padding: 15px;
 	min-height: 375px;
 }
@@ -108,7 +108,9 @@ img {
 	border: 0px solid #e84c3d;
 	background: #fff;
 	margin-bottom: 15px;
-	padding: 15px;
+	padding: 15px 0px;
+	margin-left: -4px;
+	margin-right: -4px;
 }
 
 .model-title {
@@ -122,10 +124,13 @@ img {
 }
 
 .event-panel {
-	border: 0px solid #e84c3d;
+	border-bottom: 1px solid #ECEAEA;;
 	background: #fff;
-	padding: 15px;
-	margin-bottom: 15px;
+	padding: 20px 0px;
+}
+
+.event-panel img {
+  width: 100%;
 }
 
 .event-title {
@@ -151,14 +156,14 @@ img {
 }
 
 .event-detail-panel {
-	border: 0px solid #e84c3d;
+	border-bottom: 1px solid #F4F6F9;
 	background: #fff;
-	padding: 15px;
-	margin-bottom: 15px;
+	padding: 0px;
+	margin-bottom: 30px;
 }
 
 .event-detail-title {
-  font-size: 26px;
+  font-size: 18px;
   font-weight: bold;
   padding-bottom: 10px;
   border-bottom: 1px solid #E9EAEC;
@@ -177,6 +182,8 @@ img {
 
 .event-content img {
   width: auto;
+  display: block;
+  height: auto;
 }
 
 .thumbnail {
@@ -227,7 +234,7 @@ img {
 }
 
 .subfooter {
-	margin-top: 20px;
+	margin-top: 50px;
 	width: 100%;
 	color: #747f8c;
 	text-align: center;

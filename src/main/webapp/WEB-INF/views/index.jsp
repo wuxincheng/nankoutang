@@ -159,6 +159,8 @@
 		</div>
 	</div>
 	
+    <div style="margin: 20px;">&nbsp;</div>
+  
 	<div class="container">
         <div class="notice-panel-title">活动动态 <span class="event-more"><a href="#">更多>></a></span></div>
 		<div class="row">
@@ -191,6 +193,8 @@
 			</div>
 		</div>
 	</div>
+  
+    <div style="margin: 20px;">&nbsp;</div>
 	
 	<div class="container">
 		<div class="row">

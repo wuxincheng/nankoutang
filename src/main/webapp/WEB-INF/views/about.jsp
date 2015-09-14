@@ -28,7 +28,7 @@
         </div>
         <div class="event-panel">
           <div class="row">
-            <div style="text-align: center; margin-top: 20px;">
+            <div style="text-align: center; margin-top: 40px;">
               <iframe width="604" height="585" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://j.map.baidu.com/A0MO5"></iframe>
             </div>
           </div>

@@ -22,7 +22,7 @@
 
   <div class="container">
     <div class="row">
-      <div style="padding: 0px 15px;">
+      <div style="padding: 0px 15px; margin-bottom: 20px;">
         <div class="notice-panel-title" style="color: #E62B1E; font-size: 15px;">
           <b>软件推荐</b>
         </div>

@@ -41,7 +41,7 @@ public class IndexController extends BaseController {
 		model.addAttribute("events", events);
 		
 		// 公告
-		List<Event> notices = eventService.getTopList(EventType.NOTICE, 3);
+		List<Event> notices = eventService.getTopList(EventType.NOTICE, 5);
 		model.addAttribute("notices", notices);
 		
 		// 见证
