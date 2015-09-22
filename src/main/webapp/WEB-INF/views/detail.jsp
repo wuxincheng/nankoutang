@@ -15,7 +15,7 @@
 <link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon" rel="shortcut icon" />
 
 <meta name="description" content="南口堂沙河教会">
-<meta name="keywords" content="南口堂沙河教会，教会">
+<meta name="keywords" content="北京昌平区南口堂沙河教会，南口堂，南口堂教会，沙河教会，教会，基督教会，耶稣，耶稣基督，昌平教会，北京教会">
 </head>
 <body>
 	<jsp:include page="HEADER.jsp" />

@@ -13,10 +13,6 @@
 <meta name="keywords" content="南口堂沙河教会">
 <meta name="author" content="wuxincheng,wxcking,wuxinchenghappy@gmail.com,吴新成">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!-- 
-<link href="<%=request.getContextPath()%>/assets/img/favicon.ico" type="image/x-icon" rel="icon"/>
-<link href="<%=request.getContextPath()%>/assets/img/favicon.ico" type="image/x-icon" rel="shortcut icon"/>
- -->
 </head>
 
 <body>

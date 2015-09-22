@@ -24,8 +24,8 @@
 <link href="${root}/assets/img/logo/logo.png" type="image/x-icon" rel="shortcut icon" />
 
 <!-- info -->
-<meta name="description" content="找到你喜欢的理财产品">
-<meta name="keywords" content="赚了没，基金点评，基金分享，基金排行榜">
+<meta name="description" content="南口堂沙河教会">
+<meta name="keywords" content="北京昌平区南口堂沙河教会，南口堂，南口堂教会，沙河教会，教会，基督教会，耶稣，耶稣基督，昌平教会，北京教会">
 
 </head>
 <body>

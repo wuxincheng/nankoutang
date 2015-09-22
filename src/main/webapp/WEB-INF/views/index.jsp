@@ -14,7 +14,7 @@
 <link href="${root}/assets/img/logo/logoEN.png" type="image/x-icon" rel="shortcut icon" />
 
 <meta name="description" content="南口堂沙河教会">
-<meta name="keywords" content="南口堂沙河教会，教会">
+<meta name="keywords" content="北京昌平区南口堂沙河教会，南口堂，南口堂教会，沙河教会，教会，基督教会，耶稣，耶稣基督，昌平教会，北京教会">
 </head>
 <body>
 	<jsp:include page="HEADER.jsp" />
@@ -123,12 +123,12 @@
 					</div>
 				</div>
 				<div class="col-md-8">
-                    <div class="notice-panel-title">讲道动态 <span class="event-more"><a href="#">更多>></a></span></div>
+                    <div class="notice-panel-title">讲道动态 <span class="event-more"><a href="${root}/event/list?eventType=1" target="_blank">更多>></a></span></div>
 					<div class="event-panel">
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+								<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
@@ -138,7 +138,7 @@
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+								<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
@@ -148,7 +148,7 @@
 						<div class="row">
 							<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 							<div class="col-md-8">
-								<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+								<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 								<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 								<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 							</div>
@@ -158,18 +158,16 @@
 			</div>
 		</div>
 	</div>
-	
-    <div style="margin: 20px;">&nbsp;</div>
   
 	<div class="container">
-        <div class="notice-panel-title">活动动态 <span class="event-more"><a href="#">更多>></a></span></div>
+        <div class="notice-panel-title">活动动态 <span class="event-more"><a href="${root}/event/list?eventType=3" target="_blank">更多>></a></span></div>
 		<div class="row">
 			<div class="col-md-4">
 				<div class="orgmake">
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				      	<p>
-			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+			        	<div class="event-title-v"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 				    </div>
 			  	</div>
 			</div>
@@ -178,7 +176,7 @@
 				    <div class="thumbnail">
 				      	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				      	<p>
-			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+			        	<div class="event-title-v"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 				    </div>
 			  	</div>
 			</div>
@@ -187,24 +185,22 @@
 				    <div class="thumbnail">
 				    	<img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg">
 				    	<p>
-			        	<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+			        	<div class="event-title-v"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 				    </div>
 			  	</div>
 			</div>
 		</div>
 	</div>
   
-    <div style="margin: 20px;">&nbsp;</div>
-	
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8">
-                <div class="notice-panel-title">生命见证 <span class="event-more"><a href="#">更多>></a></span></div>
+                <div class="notice-panel-title">生命见证 <span class="event-more"><a href="${root}/event/list?eventType=4" target="_blank">更多>></a></span></div>
 				<div class="event-panel">
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
@@ -214,7 +210,7 @@
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
@@ -224,7 +220,7 @@
 					<div class="row">
 						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
 						<div class="col-md-8">
-							<div class="event-title">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</div>
+							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
 							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
 							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
 						</div>
