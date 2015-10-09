@@ -7,7 +7,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>${eventTypeValue} - 南口堂沙河教会</title>
+<title>${eventTypeValue}-南口堂沙河教会</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 
@@ -18,61 +18,60 @@
 <meta name="keywords" content="北京昌平区南口堂沙河教会，南口堂，南口堂教会，沙河教会，教会，基督教会，耶稣，耶稣基督，昌平教会，北京教会">
 </head>
 <body>
-	<jsp:include page="HEADER.jsp" />
-	
-	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-                <div class="notice-panel-title" style="color: #E62B1E; font-size: 15px;"><b>${eventTypeValue}</b></div>
-				<div class="event-panel">
-					<div class="row">
-						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
-						<div class="col-md-8">
-							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
-							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
-						</div>
-					</div>
-				</div>
-				<div class="event-panel">
-					<div class="row">
-						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
-						<div class="col-md-8">
-							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
-							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
-						</div>
-					</div>
-				</div>
-				<div class="event-panel">
-					<div class="row">
-						<div class="col-md-4"><img src="http://wuxincheng.com.cn/wuxincheng-manage/userfiles/images/2015/07/uniqlo/143701607489399300.jpg"></div>
-						<div class="col-md-8">
-							<div class="event-title"><a href="#">马航确认MH370坠机 教堂聚会为受难家属得安慰代祷</a></div>
-							<div class="event-time">发布于：2015年12月25日 12:23:33<span style="margin-left: 30px;">阅读（39 次）</span></div>
-							<div class=event-memo>我请求你以大能与我同在，作我生命的得胜者，这样，当我全心爱自己的兄弟甚至仇敌之时，能将一切荣耀归于你！</div>
-						</div>
-					</div>
-				</div>
-                <div class="alert alert-info" role="alert" style="text-align: center;">已经加载全部内容</div>
-			</div>
-			<div class="col-md-4">
-				<div class="ad-panel">
-					<a href="#">
-						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
-					</a>
-				</div>
-				
-				<div class="ad-panel">
-					<a href="#">
-						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
-					</a>
-				</div>
-			</div>
-		</div>
-	</div>
+  <jsp:include page="HEADER.jsp" />
 
-	<jsp:include page="FOOTER.jsp" />
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="notice-panel-title" style="color: #E62B1E; font-size: 15px;">
+          <b>${eventTypeValue}</b>
+        </div>
+
+        <c:choose>
+          <c:when test="${not empty events}">
+            <c:forEach items="${events}" var="event">
+              <div class="event-panel">
+                <div class="row">
+                  <div class="col-md-4">
+                    <img src="${event.eventIndexImg}">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="event-title">
+                      <a href="${root}/event/detail/${event.eventid}" target="_blank">${event.eventTitle}</a>
+                    </div>
+                    <div class="event-time">
+                      <span>发布于：${event.updateTime}</span><span style="margin-left: 30px;">阅读（${event.readSum}
+                        次）</span>
+                    </div>
+                    <div class=event-memo>${event.eventSubTitle}</div>
+                  </div>
+                </div>
+              </div>
+            </c:forEach>
+            <div class="alert alert-info" role="alert" style="text-align: center;">已经加载全部内容</div>
+          </c:when>
+          <c:otherwise>
+            <div class="alert alert-warning" role="alert" style="text-align: center;">目前还没有发布${eventTypeValue}内容</div>
+          </c:otherwise>
+        </c:choose>
+      </div>
+      <div class="col-md-4">
+        <div class="ad-panel">
+          <a href="#"> <img
+            src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
+          </a>
+        </div>
+
+        <div class="ad-panel">
+          <a href="#"> <img
+            src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <jsp:include page="FOOTER.jsp" />
 
 </body>
 </html>

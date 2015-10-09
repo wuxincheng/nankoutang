@@ -9,8 +9,8 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 import com.jesuschrist.nankoutang.model.Event;
 import com.jesuschrist.nankoutang.model.EventType;
@@ -23,8 +23,8 @@ public class EventController extends BaseController {
 	
 	@Resource private EventService eventService;
 	
-	@RequestMapping(value = "/list")
-	public String list(Model model, String eventType) {
+	@RequestMapping(value = "/list/{eventType}")
+	public String list(Model model, @PathVariable String eventType) {
 		logger.info("显示列表页面 eventType={}", eventType);
 		if (StringUtils.isEmpty(EventType.getValue(eventType))) {
 			eventType = EventType.EVENT;
@@ -39,8 +39,8 @@ public class EventController extends BaseController {
 		return "list";
 	}
 	
-	@RequestMapping(value = "/detail")
-	public String detail(Model model, @RequestParam("eventid") String eventid) {
+	@RequestMapping(value = "/detail/{eventid}")
+	public String detail(Model model, @PathVariable String eventid) {
 		logger.info("显示详细页面  eventid={}", eventid);
 		
 		if (StringUtils.isEmpty(eventid)) {
