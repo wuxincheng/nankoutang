@@ -171,7 +171,9 @@
             <div class="col-md-4">
               <div class="orgmake">
                 <div class="thumbnail">
-                  <img src="${event.eventIndexImg}">
+                  <a href="${root}/event/detail/${event.eventid}" target="_blank">
+                    <img src="${event.eventIndexImg}">
+                  </a>
                   <p>
                   <div class="event-title-v">
                     <a href="${root}/event/detail/${event.eventid}" target="_blank">${event.eventTitle}</a>

@@ -34,15 +34,30 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #3F3D3D;
-	font-size: 20px;
+	color: #fff;
+	font-size: 22px;
 	font-weight: bold;
+	padding-top: 35px;
 }
 
 .navbar-default .navbar-nav>li>a {
-	color: #3F3D3D;
+	color: #fff;
 	font-size: 16px;
-	font-weight: bold;
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.navbar {
+    min-height: 90px;
+}
+
+.navbar-default {
+    background-color: #211D21;
+    border-color: #211D21;
+}
+
+.navbar-toggle {
+    margin-top: 28px;
 }
 
 .sildepanel {
