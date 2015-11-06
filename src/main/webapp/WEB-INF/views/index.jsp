@@ -184,7 +184,7 @@
           </c:forEach>
         </c:when>
         <c:otherwise>
-          <div class="alert alert-warning" role="alert" style="text-align: center;">
+          <div class="alert alert-warning" role="alert" style="text-align: center; margin: 0px 15px 20px 15px;">
             <span>目前还没有发布活动动态</span>
           </div>
         </c:otherwise>

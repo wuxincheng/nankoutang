@@ -9,6 +9,8 @@ public class AboutController {
 
 	@RequestMapping(value = "/about")
 	public String list(Model model) {
+		model.addAttribute("about", "about");
+		
 		return "about";
 	}
 	

@@ -9,6 +9,8 @@ public class SoftController {
 
 	@RequestMapping(value = "/soft")
 	public String list(Model model) {
+		model.addAttribute("soft", "soft");
+		
 		return "soft";
 	}
 	

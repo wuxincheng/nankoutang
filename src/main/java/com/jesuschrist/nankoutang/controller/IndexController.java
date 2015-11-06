@@ -31,6 +31,8 @@ public class IndexController extends BaseController {
 	@RequestMapping(value = "/index")
 	public String index(Model model, HttpServletRequest request) {
 		logger.info("显示首页");
+		
+		model.addAttribute("index", "index");
 
 		// 讲道
 		List<Event> courses = eventService.getTopList(EventType.COURSE, 3);

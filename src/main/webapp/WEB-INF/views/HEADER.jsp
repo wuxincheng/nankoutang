@@ -43,15 +43,15 @@
       </div>
       <div id="navbar" class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
-          <li><a href="${root}/index">首页</a></li>
-          <li><a href="${root}/event/list/1">每周讲道</a></li>
-          <li><a href="${root}/event/list/2">公告</a></li>
-          <li><a href="${root}/event/list/3">活动</a></li>
-          <li><a href="${root}/event/list/4">生命见证</a></li>
-          <li><a href="${root}/event/list/5">诗班</a></li>
-          <li><a href="${root}/event/list/6">主日学</a></li>
-          <li><a href="${root}/about">关于教会</a></li>
-          <li><a href="${root}/soft">软件推荐</a></li>
+          <li <c:if test="${not empty index}">class="active"</c:if>><a href="${root}/index">首页</a></li>
+          <li <c:if test="${eventType == '1'}">class="active"</c:if>><a href="${root}/event/list/1">每周讲道</a></li>
+          <li <c:if test="${eventType == '2'}">class="active"</c:if>><a href="${root}/event/list/2">公告</a></li>
+          <li <c:if test="${eventType == '3'}">class="active"</c:if>><a href="${root}/event/list/3">活动</a></li>
+          <li <c:if test="${eventType == '4'}">class="active"</c:if>><a href="${root}/event/list/4">生命见证</a></li>
+          <li <c:if test="${eventType == '5'}">class="active"</c:if>><a href="${root}/event/list/5">诗班</a></li>
+          <li <c:if test="${eventType == '6'}">class="active"</c:if>><a href="${root}/event/list/6">主日学</a></li>
+          <li <c:if test="${not empty about}">class="active"</c:if>><a href="${root}/about">关于教会</a></li>
+          <li <c:if test="${not empty soft}">class="active"</c:if>><a href="${root}/soft">软件推荐</a></li>
         </ul>
       </div>
     </div>
