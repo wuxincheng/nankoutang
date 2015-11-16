@@ -32,9 +32,11 @@
             <c:forEach items="${events}" var="event">
               <div class="event-panel">
                 <div class="row">
+                  <c:if test="${not empty event.eventIndexImg}">
                   <div class="col-md-4">
                     <img src="${event.eventIndexImg}">
                   </div>
+                  </c:if>
                   <div class="col-md-8">
                     <div class="event-title">
                       <a href="${root}/event/detail/${event.eventid}" target="_blank">${event.eventTitle}</a>
@@ -57,14 +59,13 @@
       </div>
       <div class="col-md-4">
         <div class="ad-panel">
-          <a href="#"> <img
-            src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
+          <a href="#">
+            <img src="${root}/assets/images/left01.jpg" />
           </a>
         </div>
 
         <div class="ad-panel">
-          <a href="#"> <img
-            src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
+          <a href="#"><img src="${root}/assets/images/left02.jpg" />
           </a>
         </div>
       </div>

@@ -1364,7 +1364,6 @@ a {
 
 a:focus,a:hover {
 	color: #E62B1E;
-	font-weight: bold;
 }
 
 a:focus {

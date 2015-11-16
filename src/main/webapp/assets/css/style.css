@@ -35,28 +35,25 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar-default .navbar-brand {
 	color: #fff;
-	font-size: 22px;
-	font-weight: bold;
-	padding-top: 35px;
+	font-size: 21px;
+	padding-top: 25px;
 }
 
 .navbar-default .navbar-nav>li>a {
 	color: #fff;
 	font-size: 16px;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	font-weight: bold;
+	padding-top: 25px;
+	padding-bottom: 20px;
 }
 
 .navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:focus,.navbar-default .navbar-nav>.active>a:hover {
 	color: #f22a22;
 	background-color: #211D21;
-	font-weight: bold;
 	border-bottom: 3px solid #f22a22;
 }
 
 .navbar {
-    min-height: 90px;
+    min-height: 70px;
 }
 
 .navbar-default {

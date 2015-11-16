@@ -52,13 +52,13 @@
 			<div class="col-md-4">
 				<div class="ad-panel">
 					<a href="#">
-						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000QYBwU8QcKZ-DFJdp6.png">
+						<img src="${root}/assets/images/left01.jpg" />
 					</a>
 				</div>
 				
 				<div class="ad-panel">
 					<a href="#">
-						<img src="http://ubmcmm.baidustatic.com/media/v1/0f000rzcPl3n_b1vTxfuj0.jpg">
+						<img src="${root}/assets/images/left02.jpg" />
 					</a>
 				</div>
 			</div>

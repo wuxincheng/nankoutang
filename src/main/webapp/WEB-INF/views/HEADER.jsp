@@ -42,7 +42,7 @@
         <a class="navbar-brand" href="${root}/index">南口堂沙河教会</a>
       </div>
       <div id="navbar" class="navbar-collapse collapse">
-        <ul class="nav navbar-nav">
+        <ul class="nav navbar-nav navbar-right">
           <li <c:if test="${not empty index}">class="active"</c:if>><a href="${root}/index">首页</a></li>
           <li <c:if test="${eventType == '1'}">class="active"</c:if>><a href="${root}/event/list/1">每周讲道</a></li>
           <li <c:if test="${eventType == '2'}">class="active"</c:if>><a href="${root}/event/list/2">公告</a></li>
