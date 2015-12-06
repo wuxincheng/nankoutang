@@ -20,49 +20,32 @@
 <body>
 	<jsp:include page="HEADER.jsp" />
 	<div class="container">
-		<div class="row">
-			<div class="col-md-8">
-    		  <div class="event-detail-panel">
-        		<div class="event-detail-title">${event.eventTitle}</div>
-        		<div class="event-time">
-                  <span style="margin-right: 30px;">发布于：2015年12月25日 12:23:33</span>
-                  <span>阅读（${event.readSum} 次）</span>
-                </div>
-                <c:if test="${not empty event.eventSubTitle}">
-                <div class=event-detail-sub-title>${event.eventSubTitle}</div>
-                </c:if>
-        		<div class="event-content">${event.eventContent}
-                </div>
-    		  </div>
-              <div class="share">
-                <!-- JiaThis Button BEGIN -->
-                <div class="jiathis_style_32x32">
-                  <span class="jiathis_txt" style="font-size: 14px;">分享到：</span>
-                  <a class="jiathis_button_weixin"></a>
-                  <a class="jiathis_button_tsina"></a>
-                  <a class="jiathis_button_qzone"></a>
-                  <a class="jiathis_button_cqq"></a>
-                  <a class="jiathis_button_tqq"></a>
-                  <a class="jiathis_button_renren"></a>
-                </div>
-                <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
-                <!-- JiaThis Button END -->
-              </div>
-			</div>
-			<div class="col-md-4">
-				<div class="ad-panel">
-					<a href="#">
-						<img src="${root}/assets/images/left01.jpg" />
-					</a>
-				</div>
-				
-				<div class="ad-panel">
-					<a href="#">
-						<img src="${root}/assets/images/left02.jpg" />
-					</a>
-				</div>
-			</div>
-		</div>
+  <div class="event-detail-panel">
+		<div class="event-detail-title">${event.eventTitle}</div>
+		<div class="event-time">
+          <span style="margin-right: 30px;">发布于：2015年12月25日 12:23:33</span>
+          <span>阅读（${event.readSum} 次）</span>
+        </div>
+        <c:if test="${not empty event.eventSubTitle}">
+        <div class=event-detail-sub-title>${event.eventSubTitle}</div>
+        </c:if>
+		<div class="event-content">${event.eventContent}
+        </div>
+  </div>
+      <div class="share">
+        <!-- JiaThis Button BEGIN -->
+        <div class="jiathis_style_32x32">
+          <span class="jiathis_txt" style="font-size: 14px;">分享到：</span>
+          <a class="jiathis_button_weixin"></a>
+          <a class="jiathis_button_tsina"></a>
+          <a class="jiathis_button_qzone"></a>
+          <a class="jiathis_button_cqq"></a>
+          <a class="jiathis_button_tqq"></a>
+          <a class="jiathis_button_renren"></a>
+        </div>
+        <script type="text/javascript" src="http://v3.jiathis.com/code/jia.js" charset="utf-8"></script>
+        <!-- JiaThis Button END -->
+      </div>
 	</div>
 
 	<jsp:include page="FOOTER.jsp" />
